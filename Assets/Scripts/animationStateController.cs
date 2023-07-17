@@ -11,6 +11,7 @@ public class animationStateController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+
         isWalkingHash = Animator.StringToHash("isWalking");
         isRunningHash = Animator.StringToHash("isRunning");
     }
